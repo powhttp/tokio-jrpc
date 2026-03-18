@@ -1,5 +1,8 @@
 # tokio-jrpc
 
+[![docs.rs](https://img.shields.io/docsrs/tokio-jrpc?logo=rust)](https://docs.rs/tokio-jrpc)
+[![crates.io](https://img.shields.io/crates/v/tokio-jrpc?logo=rust)](https://crates.io/crates/tokio-jrpc)
+
 A simple, typed async [JSON-RPC 2.0](https://www.jsonrpc.org/specification) client and server built on [Tokio](https://tokio.rs). Works over any `AsyncRead + AsyncWrite` transport using newline-delimited JSON.
 
 ## Usage
